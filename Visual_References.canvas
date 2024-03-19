@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"0405e8ede72c2a4e","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240306175955.png","x":-340,"y":-380,"width":316,"height":400},
+		{"id":"35f867929a5c496e","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240306180042.png","x":0,"y":-380,"width":352,"height":400},
+		{"id":"5c1d14d1c226c5aa","type":"text","text":"Examples of Liminal Space in Real Life","x":-149,"y":-520,"width":250,"height":60},
+		{"id":"1e9170b730042ebe","type":"text","text":"Examples of Liminal Space in Digital Space","x":-113,"y":77,"width":250,"height":60},
+		{"id":"6374e5a83826e28f","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240306180129.png","x":-360,"y":180,"width":400,"height":225},
+		{"id":"5e60c5844477af96","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318185933.png","x":-360,"y":780,"width":400,"height":313},
+		{"id":"db8e3ef4e80532e2","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318185751.png","x":80,"y":180,"width":400,"height":324},
+		{"id":"dadf45124c7945b7","type":"text","text":"Dreamcore examples","x":-49,"y":616,"width":250,"height":60},
+		{"id":"0cee8d7a6f87bc96","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318190033.png","x":137,"y":780,"width":400,"height":400},
+		{"id":"9360e413df552b5e","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318190348.png","x":-360,"y":1180,"width":400,"height":225},
+		{"id":"2455d725d123a1f5","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318190610.png","x":537,"y":180,"width":400,"height":400},
+		{"id":"662d2c6de5cd7e65","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318190727.png","x":400,"y":-380,"width":400,"height":300},
+		{"id":"6b50893c73db5b38","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318190849.png","x":937,"y":-164,"width":400,"height":301},
+		{"id":"885361e6bb0ab4c6","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318190955.png","x":937,"y":-630,"width":383,"height":400},
+		{"id":"7e4d7ee3a35861b9","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318191446.png","x":400,"y":-820,"width":400,"height":300},
+		{"id":"03a9a16053f9d95f","type":"file","file":"IHaveBeenHere/Images/Pasted image 20240318191530.png","x":-120,"y":-960,"width":321,"height":400}
+	],
+	"edges":[
+		{"id":"7b0f8a0e101c4c05","fromNode":"5c1d14d1c226c5aa","fromSide":"bottom","toNode":"0405e8ede72c2a4e","toSide":"top"},
+		{"id":"0de5dc9bdb9c6682","fromNode":"5c1d14d1c226c5aa","fromSide":"bottom","toNode":"35f867929a5c496e","toSide":"top"},
+		{"id":"62c95c79ebf5ec45","fromNode":"1e9170b730042ebe","fromSide":"bottom","toNode":"6374e5a83826e28f","toSide":"top"},
+		{"id":"696e397e468a65e3","fromNode":"1e9170b730042ebe","fromSide":"right","toNode":"db8e3ef4e80532e2","toSide":"top"},
+		{"id":"7416b49189204007","fromNode":"dadf45124c7945b7","fromSide":"right","toNode":"db8e3ef4e80532e2","toSide":"bottom"},
+		{"id":"bdc3d2080afaa24a","fromNode":"dadf45124c7945b7","fromSide":"bottom","toNode":"5e60c5844477af96","toSide":"top"},
+		{"id":"aa047fedff50658c","fromNode":"dadf45124c7945b7","fromSide":"bottom","toNode":"0cee8d7a6f87bc96","toSide":"top"},
+		{"id":"20162808a317c93d","fromNode":"dadf45124c7945b7","fromSide":"bottom","toNode":"9360e413df552b5e","toSide":"top"},
+		{"id":"6ee3355aef54304e","fromNode":"1e9170b730042ebe","fromSide":"bottom","toNode":"2455d725d123a1f5","toSide":"top"},
+		{"id":"d71b63e0afeb4e57","fromNode":"5c1d14d1c226c5aa","fromSide":"bottom","toNode":"662d2c6de5cd7e65","toSide":"top"},
+		{"id":"89de4cbe332f07ff","fromNode":"5c1d14d1c226c5aa","fromSide":"right","toNode":"885361e6bb0ab4c6","toSide":"left"},
+		{"id":"41786d08343441e3","fromNode":"5c1d14d1c226c5aa","fromSide":"right","toNode":"6b50893c73db5b38","toSide":"left"},
+		{"id":"eefcb667466e93e0","fromNode":"5c1d14d1c226c5aa","fromSide":"right","toNode":"7e4d7ee3a35861b9","toSide":"left"},
+		{"id":"7721e21acc78df4c","fromNode":"5c1d14d1c226c5aa","fromSide":"top","toNode":"03a9a16053f9d95f","toSide":"bottom"}
+	]
+}
