@@ -11,9 +11,9 @@ A space can be considered liminal when it is a space that you feel you ought to 
 
 "Memories of childhood seem hazy and distant, qualities which make them comparable to dreams." - Alex Magozzi , https://www.trashmag.xyz/online-pub/liminal-space-in-the-2020s
 
-### dreamcore
+### Dreamcore
 
-A specific topic I would like to talk about, is Dreamcore. Dreamcore is a relatively new term which describes that feeling of dread in a liminal space, but heavily tints it with nostalgia. We've been here before... right? Our dreams have a very special type of style and feel to them, which is what Dreamcore tries to sample.
+A specific topic I would like to talk about, is #Dreamcore. Dreamcore is a relatively new term which describes that feeling of dread in a liminal space, but heavily tints it with #nostalgia. We've been here before... right? Our dreams have a very special type of style and feel to them, which is what Dreamcore tries to sample.
 
 ##### sources
 https://vapor95.com/blogs/darknet/liminal-space-dreamcore-and-weirdcore

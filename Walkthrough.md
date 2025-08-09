@@ -7,7 +7,9 @@ You are standing in a space with tiles all over the walls until about halfway up
 
 ## STAGE TWO
 
-You are now in an enclosed space that resembles a swimming pool, but it seems to shallow to be used as such.
+You are now in an enclosed space that resembles a swimming pool, but it seems too shallow to be used as such. You walk around, seemingly aimlessly, when suddenly you see some text on the wall. You pass by, and suddenly some stairs have appeared in the floor. You go down, and down, and down, and every time you seem to get back to where you where, until... 
 
 ![[Pasted image 20240317180901.png]]
 ![[Pasted image 20240317180324.png]]![[Pasted image 20240317180412.png]]
+
+![[Pasted image 20240319173948.png]]

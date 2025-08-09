@@ -1,4 +1,10 @@
-## 6 march
+### 09 Aug 2025
+- ported to 5.3
+- version control via git LFS / Azure
+- new wall texture
+- settings menu implementation [graphics]
+- https://www.youtube.com/watch?v=OCBYMQzG44U game uitgebracht na IHBH 
+## 6 march 2024
 - researching portals
 - researching water collision and water bodies https://www.youtube.com/watch?v=J3BlkZF0484
 - nice read on liminal spaces / backrooms https://vapor95.com/blogs/darknet/liminal-space-dreamcore-and-weirdcore
@@ -111,7 +117,7 @@ Alyster has a deep interest for psychology and biology, and researches and explo
 - 1600 max characters
 
 ###### Reasons for applying
-I really want to work with liminal space and research the psychological effects that it has on people, and why sometimes these spaces call to us in melancholic way. I want to break out of the rules of conventional videogames and create something truly devoid of normal game mechanics, but something that could be viewed as one. Virtual 3D spaces are the closest we have to entering a lucid dreamstate. I am dreaming of dedicating all my time to this, to I have the means to fully focus on it. In my daily life I have too many distractions and too many responsibilities. I would like to make these less focused, and put my full focus on researching, experimenting, creating everything needed to make this into a finished artwork. Since I graduated in 2018, I haven't been able to grab that full dedication to a project as I could during my Bachelor's degree - back then I made a virtual exploration on Peer Pressure - I enjoyed it to the fullest, and I am looking forward to do this again with all the years of experience and knowledge I gained.
+I really want to work with liminal space and research the psychological effects that it has on people, and why sometimes these spaces call to us in melancholic way. I want to break out of the rules of conventional videogames and create something truly devoid of normal game mechanics, but something that could be viewed as one. Virtual 3D spaces are the closest we have to entering a lucid dreamstate. I am dreaming of dedicating all my time to this, to I have the means to fully focus on it. In my daily life I have too many distractions and too many responsibilities. I would like to make these less focused, and put my full focus on researching, experimenting, creating everything needed to make this into a finished artwork. Since I graduated in 2018, I haven't been able to grab that full dedication to a project as I could during my Bachelor's degree - back then I made a virtual reality experiment on Peer Pressure - I enjoyed it to the fullest, and I am looking forward to do this again with all the years of experience and knowledge I gained.
 
 - 1600 max characters
 
@@ -133,14 +139,10 @@ Targets:
 - Multiple virtual environments that can be traversed through the use of sensors or controllers, on some screen [monitor, projector or VR headset]
 - A video or short film that explores these environments and captures the dreamstate
 
-[Some] inspirations:
-- The Beginners Guide - Videogame, Davey Wreden
-- 
-
 - 2200 max characters
 
 ###### What other commitments do you have for the period of the programme?
-I have obligations between the 30th of July 2024 and the 11th of August - in this time I am abroad - and I work for an art collective. The latter is part-time and flexible, and most of it can be done remotely. I might need to find other sources of income during the programme depending on what expenses I need to make.
+I have obligations between the 30th of July 2024 and the 11th of August - in this time I am abroad - and I work for an art collective. The latter is part-time and flexible, and most of it can be done remotely. I might need to find other sources of income during the programme depending on what expenses I need to make, and what income I can create.
 
 E.g. full-time or part-time work, studies, other residencies, else
 
@@ -157,7 +159,7 @@ Accepted file types: pdf, Max. file size: 12 MB.
 - adding footsteps, fixing issue - materials werent assigned in the editor settings https://sound-effects.bbcrewind.co.uk/search?cat=Footsteps&resultSize=190 #foley
 - fixed most problems in stage 1, added some weird chairs, stage 1 is as good as finished, works.
 - stage 2 needs fixing on the blueprinting part, but most logic is now in there. 
-- water does not work for some reason. footsteps just don't show up. No idea where the problem lies.
+- #physicsmaterial water does not work for some reason. footsteps just don't show up. No idea where the problem lies.--> this was because the material was still set to 'tiles' in the settings.
 
 ## 18 March
 - fixed level 1. is finished for now. think about how to make the overlap between levels
@@ -165,3 +167,40 @@ Accepted file types: pdf, Max. file size: 12 MB.
 - looked up some reading material on liminal space and dreamcore
 - fixed materials and uv mappings with the modelng tools
 - https://www.youtube.com/watch?v=dMGJv23ezrc want to implement #niagra water mechanics.
+- DOF settings: ![[Pasted image 20240319024559.png]]
+
+## 19 March
+- abolishing the sinking floor mechanism in stage 2, it is too finicky and doesn't have the desired effect. maybe later when i implement a swimming system.
+- created stage 3 : an empty level with an arch in it [arch self made as well]
+- moved all triggerbox stuff from stage 2 to the level blueprint - however had some issues with the floor_big not showing up, turned around the counter and the istriggered.
+- adding waterslides
+- tons of crashes on the metal thread plate material ??
+- fixed materials of multiple arches
+- had to move everything in the level up 100 units because of some really weird thing with the #physicsmaterial : below -120 it simply did not work. no explanations available online.
+- fixed things not spawning or spawning
+- built all levels, then building whole game
+- had to make new google acc because old one is blocked out. super annoying : Ihavebeenherebefore.alyster@gmail.com
+- posted on itch
+
+## 20 March
+- Geert tested game, gave feedback
+- added menu item 'continue' and an 'are you sure you want to quit?'
+- added small hint for where you should walk
+- new idea: ending of stage 1 should be going into the elevator and then moving 'down'
+- turned off all online subsystem plugins so it doesn't ask for firewall. If ever posting on #steam make sure to turn this back on!
+- built 1.3.2
+- added this temporary system in order to have continue button - change to #savegame system later : ![[Pasted image 20240320154331.png]] set up was done in a persistent level named #menuLVL . Set to always load in #Stage1 #Stage2 #Stage3 
+- fixed chair having no collision
+- fixed some performance issues with lighting and dynamic shadows, turned them off for the water and floor_big objects
+- diminished resolution of all textures in order to get 60fps.
+- still a bit choppy, maybe make VCR effect, because it actually looks kinda cool
+## 22 March
+- APPLICATION #Rupert SENT.
+- check more residencies: 11
+	- https://artistcommunities.org/directory/residencies
+	- https://www.magazine.artconnect.com/artist-opportunities/funded-art-residencies-to-know-about
+- if accepted at rupert, check : https://gamedev.camp/ukraine for jobs in LT 
+	- https://www.oak9e.com
+https://www.transartists.org/en/transartists-calls?page=1
+https://starts.eu/opportunities/open-call-for-s-t-arts-air/
+general xr residency: https://v2.nl/pages/rit-opencall2024
