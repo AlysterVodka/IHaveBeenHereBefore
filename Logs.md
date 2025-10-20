@@ -1,4 +1,12 @@
+### 17 Okt 2025
+- 
 ### 09 Aug 2025
+- added debugger object to be able to run through levels easier.
+- improved lots of meshes [mainly stage 2]
+- added beginning of headbob settings in camshake_walk > needs centralised multiplier variables [perhaps in future savegame] > needs to be copied to camshake_idle
+- added run button [doesnt work fully]
+- savegame implementation - menu prevents from testing: can't find exactly where regular game menu [opposed to in game menu] is still triggered.
+### 08 Aug 2025
 - ported to 5.3
 - version control via git LFS / Azure
 - new wall texture
