@@ -1,5 +1,15 @@
+### 29 Dec 2025
+- https://www.youtube.com/watch?v=Pb7gyePkAbc checking stamina
+	- was een rare setting in input actions [pressed]. hoorde daar niet en zorgde ervoor dat rennen aan en direct weer uitging
+- breathing werkt nu [rennen en lopen]
+- footsteps toegevoegd aan renanimatie MF
+- stamina en e.v.t. staminabar incl. savegame entry en ui optie aan/uit in menu
+- paar van de graphics settings omgezet naar savegame in gameinstancemanager en diverse gameplay settings omgezet
+- unreal engine blijft menu ipv menuingame laten zien ondanks dat er duideliujk menuingame moet worden geladen.
+### 25 Okt
+- bought 'the exit 8', a game simialr in genre - still need to play
 ### 17 Okt 2025
-- 
+- Steamworks aangepast
 ### 09 Aug 2025
 - added debugger object to be able to run through levels easier.
 - improved lots of meshes [mainly stage 2]
@@ -8,7 +18,7 @@
 - savegame implementation - menu prevents from testing: can't find exactly where regular game menu [opposed to in game menu] is still triggered.
 ### 08 Aug 2025
 - ported to 5.3
-- version control via git LFS / Azure
+- version control via git LFS / #Azure
 - new wall texture
 - settings menu implementation [graphics]
 - https://www.youtube.com/watch?v=OCBYMQzG44U game uitgebracht na IHBH 
@@ -169,7 +179,7 @@ Accepted file types: pdf, Max. file size: 12 MB.
 - stage 2 needs fixing on the blueprinting part, but most logic is now in there. 
 - #physicsmaterial water does not work for some reason. footsteps just don't show up. No idea where the problem lies.--> this was because the material was still set to 'tiles' in the settings.
 
-## 18 March
+## 18 March 2024
 - fixed level 1. is finished for now. think about how to make the overlap between levels
 - replaced stairs with Unreal generated stairs [!]
 - looked up some reading material on liminal space and dreamcore
@@ -190,7 +200,7 @@ Accepted file types: pdf, Max. file size: 12 MB.
 - had to make new google acc because old one is blocked out. super annoying : Ihavebeenherebefore.alyster@gmail.com
 - posted on itch
 
-## 20 March
+## 20 March 2024
 - Geert tested game, gave feedback
 - added menu item 'continue' and an 'are you sure you want to quit?'
 - added small hint for where you should walk
