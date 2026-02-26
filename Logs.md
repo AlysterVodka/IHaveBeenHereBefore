@@ -1,3 +1,13 @@
+### 17 Febu 2026
+- https://ambientcg.com/list?type=material%2Cdecal%2Catlas&sort=popular #textures #texture
+### 16 Feb 2026
+- scootmobiel lift werkend. kleine aanpassingen aan textures. audio toegevoegd. widget menu's strakgetrokken: moet nog interactiviteit in gameplay, en alles moet gecentraliseerd worden in de savegame ipv in de widgets zelf.
+### 15 Feb 2026
+- issue met graphics settings: in load settings zat een loop: event construct en start worden beiden getriggered. link tussen de 2 losgemaakt. geen idee of issues gaat geven.
+
+### 31 Dec 2025
+- exit 8 gespeeld: idee - tel de geheimen die de speler vindt / de progress die de speler heeft. zorg ervoor dat ze de game opnieuw willen spelen voor meerdere achievements [bijv. rode bal in zwembad gezien: rode bal achievement]
+- de game heeft géén staminapunten - wellicht is dat ook een ding dat ik moet uitzetten.
 ### 29 Dec 2025
 - https://www.youtube.com/watch?v=Pb7gyePkAbc checking stamina
 	- was een rare setting in input actions [pressed]. hoorde daar niet en zorgde ervoor dat rennen aan en direct weer uitging

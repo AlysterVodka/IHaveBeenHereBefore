@@ -4,6 +4,11 @@
 - [ ] make puzzles
 - [ ] create a state of mind for the player of nostalgia and a feeling of dread at the same time
 - [ ] focus on highly explorative and visually stunning scenes
+- [ ] elevator
+- [x] stoellift
+- [ ] camera drift
+- [ ] graphics and gameplay settings: add to savegame --> add to gameinstancemanager. remove saving process from widgets
+- [ ] set date and add images etc to steam page. Advertise.
 
 ## Approach
 1. establish narrative
