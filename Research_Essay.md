@@ -1,7 +1,7 @@
 
 ### Liminal Space
 
-Liminal space - what is it? It is a fairly popular topic recently. 
+Liminal space - what is it? It is a fairly popular topic recently [as of 2023]. 
 
 Liminal space is the negative space of locations. It exists, but it lingers in limbo. Nothing is there, yet obviously, objects are there, you can visit and populate the space. Usually, liminal space is devoid of life, apart from your own. And not just devoid of life, devoid of any signs that there recently was life. It is a place of transition. It is not meant to be scary or creepy, although it does leave most of use with a feeling of dread. I creates a state of uncertainty. If no one is here, why are we here? Are we supposed to be here? And are we sure we are alone?
 

@@ -1,3 +1,6 @@
+### 05 april 2025
+- installed on new pc: plugins missing - Quixel
+- knoppen toegevoegd en stage 2 verder uitgewerkt - meshes gemaakt.
 ### 02 march 2026
 - posted on steam and changed artwork
 ### 17 Febu 2026

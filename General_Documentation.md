@@ -6,19 +6,19 @@
 - [ ] focus on highly explorative and visually stunning scenes
 - [ ] elevator
 - [x] stoellift
-- [ ] camera drift
-- [ ] graphics and gameplay settings: add to savegame --> add to gameinstancemanager. remove saving process from widgets
-- [ ] set date and add images etc to steam page. Advertise.
+- [x] camera drift
+- [x] graphics and gameplay settings: add to savegame --> add to gameinstancemanager. remove saving process from widgets
+- [x] set date and add images etc to steam page. Advertise.
 
-feedback from neurodyne, itch:
-- A kind of introduction and explaining the core game loop. This can be in-universe, very weird and deliberately unsettling / confusing
--  Player has to be aware of the rules of this place, and needs to be eased into them
-- Animated anomalies, increasingly bizarre changes to the environment
-- Some visible indication of progress (A voice  praises you, or some writing on the wall "Nice! Well done!" etc.)
-- Access to other levels has to result from actions in these maps/ levels. Maybe things like: Placing the chair upstairs to trigger a certain progress in the game, or opening a door etc.
-- Generally more things to interact with, switches, flashlights, weird objects etc.
-- Feeling that something hostile or otherwise intelligent is watching and testing you
-- Some lore for the place, what is it, why am I here etc.
+feedback from neurodyne, itch: Do - [ ] Don't - [ x ] 
+- [ ] A kind of introduction and explaining the core game loop. This can be in-universe, very weird and deliberately unsettling / confusing
+- [ ] Player has to be aware of the rules of this place, and needs to be eased into them
+- [ ] Animated anomalies, increasingly bizarre changes to the environment
+- [ ] Some visible indication of progress (A voice  praises you, or some writing on the wall "Nice! Well done!" etc.)
+- [ ] Access to other levels has to result from actions in these maps/ levels. Maybe things like: Placing the chair upstairs to trigger a certain progress in the game, or opening a door etc.
+- [ ] Generally more things to interact with, switches, flashlights, weird objects etc.
+- [x] Feeling that something hostile or otherwise intelligent is watching and testing you
+- [ ] Some lore for the place, what is it, why am I here etc.
 ## Approach
 1. establish narrative
 2. establish goal

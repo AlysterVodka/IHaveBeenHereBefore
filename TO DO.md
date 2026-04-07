@@ -1,0 +1,7 @@
+- [x] crosshair mini
+- [ ] add kiddiepools and weird waterstatues [clown]
+- [ ] tight spaces
+- [ ] earthquakes and other strange anomalies that are tension heightening
+- [ ] dark spaces
+- [ ] moving water https://www.youtube.com/watch?v=FqkS6Ke0ouE
+- [ ] 
