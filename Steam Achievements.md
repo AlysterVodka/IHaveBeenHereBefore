@@ -1,0 +1,2 @@
+- jump down the diving board
+- trigger the slides

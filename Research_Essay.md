@@ -1,4 +1,9 @@
-
+What defines dreamcore?
+- blurry lens
+- feeling of vagueness, chasing something, not knowing the way out
+- vaguely familiar
+- 90s vibe
+- 
 ### Liminal Space
 
 Liminal space - what is it? It is a fairly popular topic recently [as of 2023]. 

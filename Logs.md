@@ -1,3 +1,7 @@
+### 30 april
+- carpet sounds  [rubber] added
+### 29 april
+- stage 3 uitgewerkt [zie ook 05-28 april]
 ### 05 april 2025
 - installed on new pc: plugins missing - Quixel
 - knoppen toegevoegd en stage 2 verder uitgewerkt - meshes gemaakt.
