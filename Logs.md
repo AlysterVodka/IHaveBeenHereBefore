@@ -1,3 +1,8 @@
+### 21 juli
+- crouch sounds added, maar werkt nog niet?
+- graffiti lvl 1 added
+- lvl 2 extra fx post processing en water fx
+- sound earthquake toegevoegd
 ### 30 april
 - carpet sounds  [rubber] added
 ### 29 april
