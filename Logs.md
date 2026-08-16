@@ -1,3 +1,41 @@
+### 16 Aug
+- aan build werken. LVL loop gemaakt voor demo #greyspace
+### 14 Aug
+- hotel lvl uitgebreid, level progressie afgemaakt.
+### 13 Aug
+- had probleem met #raycast setup en #selection systeem: was niet goed opgezet én de #mouseclick was ook redundant opgezet. Aangepast. Moet dan ook gefikst worden voor #mazegame #witsendlabyrinth.
+- game progression wordt nu: lange lombard hal [stage1] --> kinderspeeltuin [stage3] --> zwembad [stage2] --> waterlabyrinth [stage5] --> hotel [stage 6]
+- hotel kamers begonnen, lift systeem geimplementeerd
+
+### 11 Augustus
+- klaarmaken voor grey space. Kratje maken voor Jarno. nodig:
+	- [x] logische controller input
+	- een systeem dat makkelijk te plaatsen is in de grey space
+	- een computer die daar lang en veilig kan staan en de game kan runnen
+	- game bouwen: loop maken
+	- game automatisch starten on boot
+	- pc quickboot optie als vastloopt
+	- win notif en updates uitschakelen
+	- verlengkabel en stekkerdoos
+	- kijken voor script zodat de game niet zo maar kan worden afgesloten of geminimaliseerd [miss met de controller prima te doen]
+	- formulieren printen voor bugs
+	- formulieren online voor bugs + QR code uitprinten
+	- zitzakken regelen? anders kratten van grey space aanvragen
+	- stroompunt regelen in grey space
+	- startscherm met instructies in-game
+	- idle-timer: 10 minuten, terug naar begin.
+	- evt logging voor fouten.
+	- reservekabels meegeven en reservecontroller
+	- speaker meegeven 
+### 1 Augustus
+- begonnen met lift systeem en logische level voortgang 
+### 29 juli
+- hotel level begonnen,, samples gemaakt
+- floortexture begonnen
+- schema gemaakt voor hotel level [movement]
+### 28 Juli
+- nieuw level gemaakt. nog beetje aankleden
+- gebruikt de mazegame maze techniek
 ### 21 juli
 - crouch sounds added, maar werkt nog niet?
 - graffiti lvl 1 added

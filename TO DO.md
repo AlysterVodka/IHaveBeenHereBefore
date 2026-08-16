@@ -21,9 +21,27 @@
 stage 1
 - [ ] voetstappen die steeds stoppen
 - [x] graffiti
+- [ ] graffiti fiksen [overlapt]
+- [ ] 1 rondje minder
+- [ ] liften resetten na elk rondje
+
 stage 2
+- [ ] duikplankgeluid wordt afgekapt -- nakijken
+- [ ] standbeeld onder water
 
 stage 3 : binnenspeeltuin
-- [ ] lachende kinderen
-- [ ] kindervoetstapjes
 - [ ] echoes
+- [ ] deuren open einde
+- [ ] alles dichtbouwen
+- [ ] zorgen dat je nergens klem kan komen te zitten [crouchspace]
+- [ ] fov aanpassen
+- [ ] miss iets minder donker
+- [ ] lichtslangen werken niet meer
+
+stage 4: doolhof met bricks, licht en met veel gangen
+- [ ] maze game?
+- [ ] meer niveaus?
+
+stage 5: hotelkamers
+eindeloze gang [loop] met andere kamertjes, kamertjes maken nieuwe gangen.
+elk kamertje heeft een mini aanpassing
