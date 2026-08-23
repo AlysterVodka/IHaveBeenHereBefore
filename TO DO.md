@@ -23,7 +23,7 @@ stage 1
 - [x] graffiti
 - [ ] graffiti fiksen [overlapt]
 - [ ] 1 rondje minder
-- [ ] liften resetten na elk rondje
+- [x] liften resetten na elk rondje
 
 stage 2
 - [ ] duikplankgeluid wordt afgekapt -- nakijken

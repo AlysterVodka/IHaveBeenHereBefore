@@ -1,3 +1,24 @@
+### 23 aug
+- laatste edit IHBH. Bijna alle bugs er uit. 
+- in SPA even de messages uitgezet: moet hier naar kijken ivm lichtbouwen: bij het aan en uit zetten van de glijbaan klaagt hij daarover. 
+- speeltuin geoptimaliseerd: had veel movable lights. 
+- flooring_withhole_above [stage2] heeft alsnog collision, lijkt. ff naar kijken in toekomst.
+### 18 en  20 Aug
+- playtesten en bugs verwijderen
+- crouch half height LERP https://dev.epicgames.com/community/learning/tutorials/LPP9/unreal-engine-first-person-smooth-crouching-and-sliding
+
+### 17 Aug
+- unreal build gemaakt. had een te nieuwe versie van 2022 staan, en wilde niet builden. Nu naar oudere. Hoe:
+	-  Open **Visual Studio Installer**.
+	- Klik bij **Visual Studio Community 2022** op **Modify**.
+	- Open **Individual components**.
+	- Zoek op: `14.38`
+	- Vink aan: **MSVC v143 - VS 2022 C++ x64/x86 build tools (v14.38-17.8)
+- lift reset gefikst [als je een rondje doet dat hij weer terug bij het begin is].
+- idle timer gefikst
+- lift reset netter gemaakt.
+- ipnut controller gefikst
+- game demo af.
 ### 16 Aug
 - aan build werken. LVL loop gemaakt voor demo #greyspace
 ### 14 Aug
@@ -27,6 +48,7 @@
 	- evt logging voor fouten.
 	- reservekabels meegeven en reservecontroller
 	- speaker meegeven 
+- 
 ### 1 Augustus
 - begonnen met lift systeem en logische level voortgang 
 ### 29 juli
