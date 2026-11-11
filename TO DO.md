@@ -1,4 +1,6 @@
-
+- [ ] lift gaat niet open in de spa
+- [ ] laatste level af
+- [ ] bugfixes
 ### release in december
 - [x] crosshair verdwijnt af en toe
 - [ ] directions / geef de speler meer purpose
