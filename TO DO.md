@@ -1,4 +1,18 @@
-- [x] crosshair mini
+
+### release in december
+- [x] crosshair verdwijnt af en toe
+- [ ] directions / geef de speler meer purpose
+- [x] lift level kiezen
+- [ ] save game system : elk level wordt gesaved --> voeg alvast een IsDemo toe, zodat ie dan niet saved
+	- [ ] save level
+	- [ ] save position
+	- [ ] save progress [is die er dan?] --> elevator, dus welke levels er al zijn gedaan
+	- [ ] bij startup [continue] --> kies deze settings [load game]
+	--> het precieze gedrag moet zijn: speler speelt een level uit - dit level wordt als huidig level opgeslagen. daarna bij het saven in het nieuwe level naar vorig level opgeslagen. dit is het level wat dan in de map gemarkeerd wordt als uitgespeeld. 
+	- je moet altijd in de lift terugkomen
+#### dus to do daarvoor:
+- level registrator: bij elk level dat wordt geladen, wordt ergens geregistreerd welk level dat is [bool = true 76]
+
 - [ ] add kiddiepools and weird waterstatues [clown]
 - [ ] tight spaces
 - [ ] earthquakes and other strange anomalies that are tension heightening
@@ -45,3 +59,4 @@ stage 4: doolhof met bricks, licht en met veel gangen
 stage 5: hotelkamers
 eindeloze gang [loop] met andere kamertjes, kamertjes maken nieuwe gangen.
 elk kamertje heeft een mini aanpassing
+

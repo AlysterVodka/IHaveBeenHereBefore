@@ -1,3 +1,34 @@
+### 09 november
+- probleem opgelost met spawning : hotelblockmanagement spawnde geen nieuwe special blocks maar ik had special block index te vroeg + random gedaan. dat moet pas aan het einde anders matcht er nooit iets. 
+- soms wordt de gang niet gegenereerd met deuren, uitzoeken waarom #problem - wel een extra mechanisem in gezet zodat het opnieuw gaat. weet niet of het goed werkt
+- level moet geoptimaliseerd worden en later gebakken. 
+- begonnen met second row - werkt nog niet.
+- allerlei kamers toegevoegd en bij sommige kamers extra randomness laten genereren. weet niet of dat goed werkt. lijkt allemaal zelfde random te zijn. 
+### 08 november
+- lift in spa even uit de maisondelllis blueprint gehaald en zelf in de wereld gezet voor het geval dat dit de reden is dat de lift daar niet open wil na het spelen van andere levels [kwam weer uit speeltuin]
+- speler moet eigenlijk altijd terugkomen in die lift - speler terug laten komen in level1 - extra #fixed
+- lampje toegevoegd aan speler zodat ze iets zien als het heel donker is
+- speler kan bij de speeltuin uit de rechte ronde tunnel glitchen - later oplossen
+- de progress weerspiegelt niet in het extra level 1 level : alles is meteen te zien
+- bedacht om toch even te kijken of ik het hotel level kan maken: ik denk dat als ik het simpel hou en het niet geheel generatief maak [wat eigenlijk misschien iet heoft] dat het dan prima is. als ik 200 blokken op de Y as spawn dan is de tunnel lang zat. prop er een 'kapotte' lift aan op het einde of simpelweg een doodlopende gang [miss met een bordje of een lift 'out of order], en de eerste 'slurf' is klaar. daarna moet ik alleen de kamers automatiseren en zorgen dat de deuren niet naast elkaar kunnen spawnen. zo heeft de speler elk level toch iets nieuws, misschien.
+	- leuk om hier ook een achievement van te maken, bvb als de speler alle gangen uitloopt >> later #achievementidee
+### 07 november
+- savegame notify logic aangescherpt. game moet niet saven in 1e level alleen - nog niet aangepast zodat ik kan testen
+- overlay spawn nu in elk level blueprint zodat de timer kan lopen voor de begin message
+- elevator buttons werkten niet omdat ik ook een tag systeem gebruik naast de item identifiers > Elevator Logic functie. Geen idee waarom ik dit zo heb gedaan. Lijkt me redundant. Maar misschien voor een reden? --> nog niet gefikst, de G en alarmbutton werken nog niet.
+	- huh - zit een elevator logic in zowel speler als elevator blueprint. dat is niet goed. vgm wordt de speler gebruikt. ga de functie in elevator weghalen.
+	- #fixed knop G werkt nu. Alarmknop nog niet.
+- liftdeuren soms niet open in de spa... #fixed --> niet zeker of 100% fixed maar er miste een bool aan het einde van de door check. ook miste er een aparte logica voor de buitenknop voor de andere levels. --- #problem nog steeds gaat hij niet open. speelt wel geluid af. laatste constatering: ga naar speeltuin daarna naar de spa. druk op knop open.
+- level 1 extra [als speler terugkeert] doet iets blokkeren bij de trap - waarschijnlijk van het uitschakelen van elementen, maar ben er nog niet achter wat --> collision van onzichtbare liftelementen stond nog aan.
+	- items toegevoegd die worden ingevuld aan de hand van de levels die gedaan zijn. getest met setgameprogress in gameinstancemanager.
+- in gameinstance manager haalt hij nu elke save game de current level name toe en voegt hij het level ervoor toe aan de levelprogress. - nog niet volledig getest
+- wat meshes hiervandaan gehaald, best prima website: https://archibase.co/#gsc.tab=0 en https://free3d.io/model/Graves-Task-Lamp/a098b568#gsc.tab=0
+### 06 november
+- geen print strings. EnableAllScreenMessages al aan gezet maar dat werkt niet.
+	- blijkbaar dit gedaan in player blueprint: `Event BeginPlay` → `Execute Console Command` met `DisableAllScreenMessages` --> wee tniet of dit het heeft opgelost
+- #fixed overlay dot verdween: heeft iets te doen met de savegame die ik heb toegevoegd in begin van elke level: maakte geen overlay aan na message --- message is echter niet te zien.
+### 05 november
+- elevator systeem aangebracht: G knop en alarmknop werken nog niet. ook heb ik knop 4 nog niet getest.
 ### 23 aug
 - laatste edit IHBH. Bijna alle bugs er uit. 
 - in SPA even de messages uitgezet: moet hier naar kijken ivm lichtbouwen: bij het aan en uit zetten van de glijbaan klaagt hij daarover. 
@@ -102,7 +133,7 @@
 - savegame implementation - menu prevents from testing: can't find exactly where regular game menu [opposed to in game menu] is still triggered.
 ### 08 Aug 2025
 - ported to 5.3
-- version control via git LFS / #Azure
+- version control via git LFS / #Azure https://dev.azure.com/alystervodka/
 - new wall texture
 - settings menu implementation [graphics]
 - https://www.youtube.com/watch?v=OCBYMQzG44U game uitgebracht na IHBH 

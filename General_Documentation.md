@@ -4,7 +4,7 @@
 - [ ] make puzzles
 - [ ] create a state of mind for the player of nostalgia and a feeling of dread at the same time
 - [ ] focus on highly explorative and visually stunning scenes
-- [ ] elevator
+- [x] elevator
 - [x] stoellift
 - [x] camera drift
 - [x] graphics and gameplay settings: add to savegame --> add to gameinstancemanager. remove saving process from widgets
