@@ -28,6 +28,9 @@ website pagina delen
 - [ ] posten op reddit
 - [ ] posten op instagram reels
 - [ ] posten op twitter 
+
+|
+|
 #### 7 december:
 mensen e.d. uitnodigen voor playtest met datum 50 stuks mensen die ik ken of mensen die op itch hebben gespeeld.
 #### 14 december: 

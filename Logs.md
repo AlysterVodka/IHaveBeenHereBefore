@@ -1,3 +1,38 @@
+### 25 nov
+- paar bugs gehaald uit menu interactie
+- menus gaan ofwel terug naar main ofwel naar in game, afhankelijk van vanuit waar het wordt aangeroepen
+- controls menu bij de rest gevoegd van de settings: moet nog iets voor keyboard controls misschien.
+- savegame nakijken: werkt het nu echt? het lijkt er op dat er altijd een savegame aanwezig is, zelfs als er een nieuwe game wordt gestart en de savegame dan verwijderd zou moeten zijn.
+- menu grotendeels gefikst maar er zitten nog bugs in. bij meerdere keren verschillene knoppen indrukken verliest hij focus op meerdere paginas, bvb bij de settings, en dan komt hij niet meer terug bij de originele focus.
+### 24 nov
+- demo nog niet gepost - geert geholpen met zijn pc, die start niet meer op.
+- demo heeft minimaal nodig:
+	- controller controls werkend
+	- 2 [?] werkende levels
+	- geen rare bugs of glitches
+### 18 november
+- trailer gepland en gepost.
+- gifs exporteren met de converter 'adapter' met deze command in cmd: 
+- cd /d "C:\Users\gebruiker\DaVinci Resolve Media\IHBH_trailer_nov2026_2\Renders"
+- palettegen filter installeren: winget install -e --id Gyan.FFmpeg
+daarna:
+for %F in (*.mov) do ffmpeg -y -i "%F" -filter_complex "[0:v]fps=15,crop=iw/1.06:ih/1.06,scale=640:-1:flags=lanczos,split[a][b];[a]palettegen=reserve_transparent=0[p];[b][p]paletteuse=dither=sierra2_4a" -an -loop 0 "%~nF_gif.gif"
+### 16 november
+- in graphics settings wordt alles gereset als de gameplay settings worden opgeslagen [bvb fov wordt aangepast naar 0]
+	- het lijkt er op dat deze settings ook niet in de savegame zitten - naar kijken
+### 12 november
+- tunnel checkup aangepast naar throughroom [zodat er altijd minimaal 1 is]. echter krijg ik nu bij enkele respawns in editor een complete freeze. dus er gaat iets nog niet helemaal goed.
+- post procesing aangepast: lichtje in speler iets helderder gezet en de andere lichten meer gedimd voor een dramatischer en meer retro foto effect.
+- de tweede rij in hotel level spawned altijd deuren en altijd op dezelfde plek. dat klopt niet. dan spawned hij vaak ook alleen nog maar deuren tot ik opnieuw laad. --> refresh nodes verhelpt het probleem > mogelijk is de blueprint fucked.
+- had een math probleempje met het spawnen van de 2e rij. is nu opgelost. volgorde klopte niet en er moest een fix bij voor de startindex [die is namelijk -1 + 3 dus 2, die moest er af]
+
+### 11 november
+- macro gemaakt voor static mesh component vergelijking: compare static mesh comp. Maakt het iets compacter.
+- Alarm_Lfit tag nu ook compared toegevoegd in de ElevatorLogic function in de PlayerPawn blueprint. deze miste nog waardoor de knop niet werkte. #fixed
+- planning gemaakt [[Planning]]
+- laatste level heeft soms geen deuren : cleanup gebeurt niet goed. Dit is alleen een probleem als er al objecten staan in het level --> in principe geen probleem
+- het spawnsysteem is bijna goed, maar er is iets geks met de deuren spawnen in de tweede rij. dacht eerst dat het alleen een offset nodig had maar ik zie nu dat als ik een offset zet het ook niet overeen komt.
+- hij zegt dat er door blocks zijn zelfs als die er niet gespawned zijn. soms spawned er alleen de tunnel en niets anders... heel raar.
 ### 09 november
 - probleem opgelost met spawning : hotelblockmanagement spawnde geen nieuwe special blocks maar ik had special block index te vroeg + random gedaan. dat moet pas aan het einde anders matcht er nooit iets. 
 - soms wordt de gang niet gegenereerd met deuren, uitzoeken waarom #problem - wel een extra mechanisem in gezet zodat het opnieuw gaat. weet niet of het goed werkt
@@ -13,7 +48,7 @@
 - bedacht om toch even te kijken of ik het hotel level kan maken: ik denk dat als ik het simpel hou en het niet geheel generatief maak [wat eigenlijk misschien iet heoft] dat het dan prima is. als ik 200 blokken op de Y as spawn dan is de tunnel lang zat. prop er een 'kapotte' lift aan op het einde of simpelweg een doodlopende gang [miss met een bordje of een lift 'out of order], en de eerste 'slurf' is klaar. daarna moet ik alleen de kamers automatiseren en zorgen dat de deuren niet naast elkaar kunnen spawnen. zo heeft de speler elk level toch iets nieuws, misschien.
 	- leuk om hier ook een achievement van te maken, bvb als de speler alle gangen uitloopt >> later #achievementidee
 ### 07 november
-- savegame notify logic aangescherpt. game moet niet saven in 1e level alleen - nog niet aangepast zodat ik kan testen
+- savegame notify logic aangescherpt. game moet niet saven in 1e level alleen - nog niet aangepast zodat ik kan testen #fixed
 - overlay spawn nu in elk level blueprint zodat de timer kan lopen voor de begin message
 - elevator buttons werkten niet omdat ik ook een tag systeem gebruik naast de item identifiers > Elevator Logic functie. Geen idee waarom ik dit zo heb gedaan. Lijkt me redundant. Maar misschien voor een reden? --> nog niet gefikst, de G en alarmbutton werken nog niet.
 	- huh - zit een elevator logic in zowel speler als elevator blueprint. dat is niet goed. vgm wordt de speler gebruikt. ga de functie in elevator weghalen.
